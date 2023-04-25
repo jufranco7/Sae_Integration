@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+  <SSIS:Parameter
+    SSIS:Name="_172308013861327Matrix2_FabricaBDFabrica_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{7d41ecc6-ea3b-4d16-be52-a97c6bbff92e}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Data Source=172.30.80.138,61327;User ID=BDFabrica;Initial Catalog=Matrix2_Fabrica;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-IntegrationServicesProjectTest-{9C4A891B-EA0D-4968-8B56-810B3B9EF5D0}172.30.80.138,61327.Matrix2_Fabrica.BDFabrica;Auto Translate=False;</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+</SSIS:Parameters>
