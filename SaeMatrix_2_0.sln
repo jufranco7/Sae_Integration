@@ -19,4 +19,13 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9755F097-C7FA-43CD-B50B-53BDC0F82A0C}
 	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.30.80.138:8080/tfs/saecollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SaeMatrix_2_0.IntegrationServices\\SaeMatrix_2_0.IntegrationServices.dtproj
+		SccProjectName1 = SaeMatrix_2_0.IntegrationServices
+		SccLocalPath1 = SaeMatrix_2_0.IntegrationServices
+	EndGlobalSection
 EndGlobal

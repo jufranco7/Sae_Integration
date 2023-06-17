@@ -13,7 +13,7 @@
   DTS:ObjectName="ReporteBienesExtincionDominio"
   DTS:PackageType="5"
   DTS:VersionBuild="351"
-  DTS:VersionGUID="{626D1D6D-0AD2-474B-9E98-7EC207C4E00A}">
+  DTS:VersionGUID="{3AC03256-F3DB-4F37-9CCC-567C052A3B25}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,12 +26,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=172.30.80.138,61327;User ID=jfranco;Initial Catalog=Matrix2_Fabrica;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{BB9A5FDF-74A0-4E71-9087-E4FB02C31F04}172.30.80.138,61327.Matrix2_Fabrica.obetancourt;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAy06kMdluukieg5aSEnHuWwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACNMVqjLbq0rHa85blj7WLHQN05VPb46Z0/8ztu3dDGFwAAAAAOgAAAAAIAACAAAABPiWETG6YTTcSKoZOT+fymhcrG1WafLByPXIFkLR/j1CAAAAD5rDRJNhDK58W59AkxdNjc2QJEjkByR+9En/eXOrltL0AAAABaYFW4vgSsXxMk1LG41FFHOgtogJDklHzYztSbGkkxpm6Jeg/VHjtHJq72HxDZnzl1KauUvklw6hDNDkcTWTo8</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=172.30.80.138,61327;User ID=obetancourt;Initial Catalog=Matrix2_Fabrica;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{BB9A5FDF-74A0-4E71-9087-E4FB02C31F04}172.30.80.138,61327.Matrix2_Fabrica.obetancourt;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -50,7 +45,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="SIESEXDSSTTTCCC0423.txt">
+          DTS:ConnectionString="SIESEXDSSTTTCCC0623.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +75,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="LogError130423.txt">
+          DTS:ConnectionString="LogError060623.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnDelimiter=""
@@ -196,7 +191,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="fechaInicialCorte">
       <DTS:VariableValue
-        DTS:DataType="7">11/11/2022 11:36:02 AM</DTS:VariableValue>
+        DTS:DataType="7">11/11/2022 11:36:00 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -235,7 +230,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="nombreArchivo">
       <DTS:VariableValue
-        DTS:DataType="8">SIESEXDSSTTTCCC0423.txt</DTS:VariableValue>
+        DTS:DataType="8">SIESEXDSSTTTCCC0623.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -246,7 +241,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="nombreArchivoError">
       <DTS:VariableValue
-        DTS:DataType="8">LogError130423.txt</DTS:VariableValue>
+        DTS:DataType="8">LogError060623.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -3153,7 +3148,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               <DTS:ObjectData>
                 <SQLTask:SqlTaskData
                   SQLTask:Connection="{BB9A5FDF-74A0-4E71-9087-E4FB02C31F04}"
-                  SQLTask:SqlStatementSource="EXEC sae.PA_REPORTEESTADISTICOBIENESEXTINCIONDOMINIO_TRAZABILIDAD_INSERTAR @diasCalendario = 10, @nombreReporte = 'SIESEXDSSTTTCCC0423.txt', @codigoHash = ''" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+                  SQLTask:SqlStatementSource="EXEC sae.PA_REPORTEESTADISTICOBIENESEXTINCIONDOMINIO_TRAZABILIDAD_INSERTAR @diasCalendario = 10, @nombreReporte = 'SIESEXDSSTTTCCC0623.txt', @codigoHash = ''" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
               </DTS:ObjectData>
             </DTS:Executable>
             <DTS:Executable
